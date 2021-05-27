@@ -19,8 +19,9 @@ h1 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none;  
 }
+
 
 .body {
   height: 100vh;
@@ -95,7 +96,11 @@ a {
   font-size: 800%;
   text-decoration: none;
   text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.5px #F04532;
 }
+
+
 
 .h1-links.h1-name {
   font-size: 650%;
@@ -103,11 +108,14 @@ a {
 }
 
 .h1-links.h1-name:hover {
-  color: #8e2b20;
+  color: yellow;
   font-style: normal;
   text-align: left;
   text-decoration: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.5px #cbcbcb;
 }
+
 
 .div-block-2 {
   text-decoration: none;
@@ -173,7 +181,7 @@ a {
 
 .footerlink {
   padding-right: 40px;
-  color: #000;
+  color: #f04532;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.03em;
@@ -416,6 +424,8 @@ a {
     font-size: 250%;
     font-weight: 800;
   }
+
+
 
   .h1-links.h1-name {
     font-size: 250%;
